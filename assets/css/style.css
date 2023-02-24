@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /*No código abaixo estamos colocando que todas as fontes são de 10px
+     pois o navegador coloca que as fontes sejão de 16px. E 10/16= 0.625 ou 62.5% */
+    font-size: 62.5%;
+}
+
+header{
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 66rem;
+    padding-left: 84rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #FFF;
+    font-family: 'Poppins';
+}
+span{
+    font-size: 4rem;
+    color: #FFF;
+    font-family: 'Montserrat';
+}
