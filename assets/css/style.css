@@ -116,3 +116,39 @@ img.avatar{
     align-items: flex-start;
     gap: 2.5rem;
 }
+
+
+#section-projects{
+    background-color: #212121;
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    margin-top: 2rem;
+}
+
+#section-projects li{
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+.img-projetos{
+    width: 360px;
+    height: 560px;
+    border-radius: 10px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+#section-projects li:hover .card-info{
+    opacity: 1;
+    bottom: 20%;
+}
